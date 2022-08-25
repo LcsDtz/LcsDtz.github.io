@@ -10,7 +10,7 @@ import NBA from './Components/Pages/Liste/NBA/NBA';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar></Navbar>
       <Routes>
         <Route exact path="/" element={<Ligue1 />}></Route>
