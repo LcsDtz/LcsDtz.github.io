@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Navbar from './Components/Navbar/Navbar';
+import './App.css'
+import Ligue1 from './Components/Pages/Liste/Ligue1/Ligue1';
+import PremierLeague from './Components/Pages/Liste/PremierLeague/PremierLeague';
+import Bundesliga from './Components/Pages/Liste/Bundesliga/Bundesliga';
+import SerieA from './Components/Pages/Liste/SerieA/SerieA';
+import LaLiga from './Components/Pages/Liste/LaLiga/LaLiga';
+import NBA from './Components/Pages/Liste/NBA/NBA';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar></Navbar>
+      <Routes>
+        <Route exact path="/" element={<Ligue1 />}></Route>
+        <Route exact path="/premierleague" element={<PremierLeague />}></Route>
+        <Route exact path="/laliga" element={<LaLiga />}></Route>
+        <Route exact path="/bundesliga" element={<Bundesliga />}></Route>
+        <Route exact path="/seriea" element={<SerieA />}></Route>
+        <Route exact path="/nba" element={<NBA />}></Route>
+      </Routes>
+    </Router>
   );
 }
 

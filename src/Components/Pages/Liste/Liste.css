@@ -1,0 +1,57 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    margin: 30px 25%;
+    width: 50%;
+    color: #a7a9be;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.list-container {
+    margin-top: 40px;
+    column-count: 2;
+}
+
+.list-item {
+    display: flex;
+    background-color: #0f0e17;
+    align-items: center;
+    padding: 0.25rem 0.25rem;
+    margin: auto;
+    margin-top: 10px;
+    cursor: move;
+    border: 2px solid #121629;
+    border-radius: 5px;
+    width: 300px
+}
+
+.list-item h2 {
+    margin-left: 10px;
+}
+
+.list-item h3 {
+    margin: auto;
+}
+
+.ldc {
+    border-color: #4285f4;
+}
+
+.eliminatoire {
+    border-color: #fa7b17;
+}
+
+.europa {
+    border-color: #34a853;
+}
+
+.conference {
+    border-color: #24c1e0;
+}
+
+.relegation {
+    border-color: #ea4335;
+}

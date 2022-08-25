@@ -1,0 +1,23 @@
+.nav-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10%;
+    width: 80%;
+    background: #b8c1ec;
+    border-radius: 10px;
+    border: 3px solid #232946;
+    padding: 0px 20px;
+}
+
+.nav-top a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #232946;
+    padding: 20px 20px;
+}
+
+.nav-top a:hover {
+    color: #121629;
+    font-weight: bold;
+}
