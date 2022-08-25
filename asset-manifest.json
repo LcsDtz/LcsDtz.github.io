@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rankingsport/static/css/main.6030b862.css",
+    "main.js": "/rankingsport/static/js/main.7b342261.js",
+    "index.html": "/rankingsport/index.html",
+    "main.6030b862.css.map": "/rankingsport/static/css/main.6030b862.css.map",
+    "main.7b342261.js.map": "/rankingsport/static/js/main.7b342261.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6030b862.css",
+    "static/js/main.7b342261.js"
+  ]
+}
